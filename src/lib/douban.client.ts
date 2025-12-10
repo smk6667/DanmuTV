@@ -1,9 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any,no-console,no-case-declarations */
 
-import { DoubanItem, DoubanResult } from './types';
-
-interface DoubanCategoriesParams {
-  kind: 'tv' | 'movie';
   category: string;
   type: string;
   pageLimit?: number;
